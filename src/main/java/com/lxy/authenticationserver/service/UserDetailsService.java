@@ -10,8 +10,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 /**
- * @author: 林塬
- * @date: 2018/1/9
+ * @author: 李雪洋
+ * @date: 2019/3/2
  * @description: 用户信息获取
  */
 @Service
@@ -25,10 +25,10 @@ public class UserDetailsService implements org.springframework.security.core.use
      */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        if (username.equals("linyuan")) {
+        if (username.equals("yanzheng")) {
             PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
             String password = passwordEncoder.encode("123456");
-            UserDetails userDetails = new User("linyuan",
+            UserDetails userDetails = new User("yanzheng",
                     password,
                     AuthorityUtils.commaSeparatedStringToAuthorityList(AuthoritiesEnum.USER.getRole()));
             return userDetails;

@@ -19,8 +19,8 @@ import java.util.Collection;
 import java.util.Objects;
 
 /**
- * @author: 林塬
- * @date: 2018/1/20
+ * @author: 李雪洋
+ * @date: 2019/3/2
  * @description: OAuth2 授权服务器配置类
  */
 @EnableAuthorizationServer

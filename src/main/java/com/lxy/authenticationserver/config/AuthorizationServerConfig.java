@@ -7,8 +7,8 @@ import org.springframework.security.oauth2.config.annotation.configurers.ClientD
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author: 林塬
- * @date: 2018/1/10
+ * @author: 李雪洋
+ * @date: 2018/3/2
  * @description: OAuth2 授权服务器配置
  */
 @Configuration

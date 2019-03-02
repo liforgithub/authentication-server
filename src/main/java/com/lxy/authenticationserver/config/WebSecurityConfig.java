@@ -4,8 +4,8 @@ import com.lxy.authenticationserver.oauth2config.config.AbstractSecurityConfig;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author: 林塬
- * @date: 2018/1/19
+ * @author: 李雪洋
+ * @date: 2019/3/2
  * @description: 权限配置
  */
 @Configuration

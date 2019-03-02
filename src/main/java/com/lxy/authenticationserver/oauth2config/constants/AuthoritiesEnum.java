@@ -1,8 +1,8 @@
 package com.lxy.authenticationserver.oauth2config.constants;
 
 /**
- * @author: 林塬
- * @date: 2018/1/20
+ * @author: 李雪洋
+ * @date: 2019/3/2
  * @description: 权限常量
  */
 public enum AuthoritiesEnum {

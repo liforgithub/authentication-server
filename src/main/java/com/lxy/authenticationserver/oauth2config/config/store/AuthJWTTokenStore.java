@@ -11,8 +11,8 @@ import javax.annotation.Resource;
 import java.security.KeyPair;
 
 /**
- * @author: 林塬
- * @date: 2018/1/20
+ * @author: 李雪洋
+ * @date: 2019/3/2
  * @description: 授权服务器 TokenStore 配置类，使用 JWT RSA 非对称加密
  */
 public class AuthJWTTokenStore {

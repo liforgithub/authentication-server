@@ -9,8 +9,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author: 林塬
- * @date: 2018/1/22
+ * @author: 李雪洋
+ * @date: 2019/3/2
  * @description: 在启动类上添加该注解来----开启 JWT 令牌存储（授权服务器-非对称加密）
  */
 @Target(ElementType.TYPE)

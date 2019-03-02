@@ -19,8 +19,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import javax.annotation.PostConstruct;
 
 /**
- * @author: 林塬
- * @date: 2018/1/20
+ * @author: 李雪洋
+ * @date: 2019/3/2
  * @description: Web 权限配置类
  */
 @Configuration
