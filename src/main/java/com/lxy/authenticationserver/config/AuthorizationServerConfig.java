@@ -30,7 +30,7 @@ public class AuthorizationServerConfig extends AuthServerConfig {
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         super.configure(clients);
         clients.inMemory()                          // 使用内存存储客户端信息
-                .withClient("resource1")       // client_id
+                .withClient("testProject")       // client_id
                 .secret("secret")                   // client_secret
                 .authorizedGrantTypes("authorization_code","password")     // 该client允许的授权类型
                 .accessTokenValiditySeconds(3600)               // Token 的有效期
